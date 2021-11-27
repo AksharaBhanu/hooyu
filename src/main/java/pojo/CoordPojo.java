@@ -1,9 +1,12 @@
 package pojo;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
 // TODO: Auto-generated Javadoc
 /**
  * The Class CoordPojo.
  */
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class CoordPojo {
 	
 	/** The lon. */

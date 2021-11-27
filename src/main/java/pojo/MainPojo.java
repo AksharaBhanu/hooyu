@@ -1,10 +1,12 @@
 package pojo;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 // TODO: Auto-generated Javadoc
 /**
  * The Class MainPojo.
  */
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class MainPojo{
     
     /** The temp. */

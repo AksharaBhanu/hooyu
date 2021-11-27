@@ -4,11 +4,11 @@ import java.util.List;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
-@JsonIgnoreProperties(ignoreUnknown = true)
 // TODO: Auto-generated Javadoc
 /**
  * The Class RootPojo.
  */
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class RootPojo{
     
     /** The coord. */

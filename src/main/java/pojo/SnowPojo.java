@@ -1,11 +1,13 @@
 package pojo;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 // TODO: Auto-generated Javadoc
 /**
  * The Class SnowPojo.
  */
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class SnowPojo {
 	
 	/** The 1 h. */
