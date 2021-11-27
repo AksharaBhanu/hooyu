@@ -2,6 +2,9 @@ package pojo;
 
 import java.util.List;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
+@JsonIgnoreProperties(ignoreUnknown = true)
 // TODO: Auto-generated Javadoc
 /**
  * The Class RootPojo.
@@ -25,6 +28,9 @@ public class RootPojo{
     
     /** The wind. */
     private WindPojo wind;
+    
+    /** The snow. */
+    private SnowPojo snow;
     
     /** The rain. */
     private RainPojo rain;
@@ -300,6 +306,24 @@ public class RootPojo{
 	 */
 	public void setCod(int cod) {
 		this.cod = cod;
+	}
+
+	/**
+	 * Gets the snow.
+	 *
+	 * @return the snow
+	 */
+	public SnowPojo getSnow() {
+		return snow;
+	}
+
+	/**
+	 * Sets the snow.
+	 *
+	 * @param snow the new snow
+	 */
+	public void setSnow(SnowPojo snow) {
+		this.snow = snow;
 	}
     
     
