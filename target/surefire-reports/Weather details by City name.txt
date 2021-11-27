@@ -1,0 +1,64 @@
+-------------------------------------------------------------------------------
+Test set: Weather details by City name
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 2.399 s <<< FAILURE! - in Weather details by City name
+Weather details by City name.Verify Get Weather by city name smoke test  Time elapsed: 1.415 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected header "Content-Type" was not "application/xml; charset=utf-8", was "application/json; charset=utf-8". Headers are:
+Server=openresty
+Date=Sat, 27 Nov 2021 07:30:39 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=469
+Connection=keep-alive
+X-Cache-Key=/data/2.5/weather?q=london%2cuk
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Credentials=true
+Access-Control-Allow-Methods=GET, POST
+
+
+Weather details by City name.Get Weather by City name #1  Time elapsed: 0.332 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected header "Content-Type" was not "application/xml; charset=utf-8", was "application/json; charset=utf-8". Headers are:
+Server=openresty
+Date=Sat, 27 Nov 2021 07:30:39 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=469
+Connection=keep-alive
+X-Cache-Key=/data/2.5/weather?q=london%2cgb
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Credentials=true
+Access-Control-Allow-Methods=GET, POST
+
+
+Weather details by City name.Get Weather by City name #2  Time elapsed: 0.327 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected header "Content-Type" was not "application/xml; charset=utf-8", was "application/json; charset=utf-8". Headers are:
+Server=openresty
+Date=Sat, 27 Nov 2021 07:30:40 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=498
+Connection=keep-alive
+X-Cache-Key=/data/2.5/weather?q=bristol%2cgb
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Credentials=true
+Access-Control-Allow-Methods=GET, POST
+
+
+Weather details by City name.Get Weather by City name with invalid api_key  Time elapsed: 0.322 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected header "Content-Type" was not "application/xml; charset=utf-8", was "application/json; charset=utf-8". Headers are:
+Server=openresty
+Date=Sat, 27 Nov 2021 07:30:40 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=107
+Connection=keep-alive
+X-Cache-Key=/data/2.5/weather?q=london%2cuk
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Credentials=true
+Access-Control-Allow-Methods=GET, POST
+
+
