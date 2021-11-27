@@ -25,7 +25,7 @@ Feature: Weather details by Lat Lon
 				
 	Examples:
 		|lat|lon|expected_status_code|city_name|id|country|
-		|51.5085|-0.1257|200|London|2643743|GB|
+		|51.5074|-0.1278|200|London|2643743|GB|
 		|51.4552|-2.5967|200|Bristol|2654675|GB|
 		
 	@regression	
