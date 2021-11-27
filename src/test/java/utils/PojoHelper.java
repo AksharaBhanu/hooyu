@@ -23,11 +23,11 @@ public class PojoHelper {
 		double dVal = Double.parseDouble(val);
 		switch (key) {
 		case "lat":			
-			MatcherAssert.assertThat(coordPojo.getLat(), Matchers.equalTo(dVal));	
+			MatcherAssert.assertThat(coordPojo.getLat(), Matchers.closeTo(dVal,0.1));	
 			break;
 			
 		case "lon":
-			MatcherAssert.assertThat(coordPojo.getLon(), Matchers.equalTo(dVal));	
+			MatcherAssert.assertThat(coordPojo.getLon(), Matchers.closeTo(dVal,0.1));	
 			break;
 			
 		default:
