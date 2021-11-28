@@ -18,6 +18,7 @@ public class PojoHelper {
 	 * @param coordPojo the coord pojo
 	 * @param key the key
 	 * @param val the val
+	 * Verification by using closeTo
 	 */
 	public static void verifyCoordinates(CoordPojo coordPojo, String key, String val) {
 		double dVal = Double.parseDouble(val);
