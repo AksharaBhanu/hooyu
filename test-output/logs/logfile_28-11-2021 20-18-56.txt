@@ -1,0 +1,460 @@
+Request method:	GET
+Request URI:	https://api.openweathermap.org/data/2.5/weather?appid=63c98945644c3b231f6f60d263e34006&appid=63c98945644c3b231f6f60d263e34006&lat=51.5085&lon=-0.1257
+Proxy:			<none>
+Request params:	<none>
+Query params:	appid=[63c98945644c3b231f6f60d263e34006, 63c98945644c3b231f6f60d263e34006]
+				lat=51.5085
+				lon=-0.1257
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://api.openweathermap.org/data/2.5/weather?appid=63c98945644c3b231f6f60d263e34006&q=London%2Cuk
+Proxy:			<none>
+Request params:	<none>
+Query params:	appid=63c98945644c3b231f6f60d263e34006
+				q=London,uk
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Server: openresty
+Date: Sun, 28 Nov 2021 14:48:58 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 463
+Connection: keep-alive
+X-Cache-Key: /data/2.5/weather?lat=51.51&lon=-0.13
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: GET, POST
+
+{
+    "coord": {
+        "lon": -0.1278,
+        "lat": 51.5074
+    },
+    "weather": [
+        {
+            "id": 800,
+            "main": "Clear",
+            "description": "clear sky",
+            "icon": "01d"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 277.37,
+        "feels_like": 273.2,
+        "temp_min": 276.42,
+        "temp_max": 278.03,
+        "pressure": 1005,
+        "humidity": 52
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 5.66,
+        "deg": 300
+    },
+    "clouds": {
+        "all": 0
+    },
+    "dt": 1638110512,
+    "sys": {
+        "type": 1,
+        "id": 1414,
+        "country": "GB",
+        "sunrise": 1638085192,
+        "sunset": 1638115052
+    },
+    "timezone": 0,
+    "id": 2643743,
+    "name": "London",
+    "cod": 200
+}
+HTTP/1.1 200 OK
+Server: openresty
+Date: Sun, 28 Nov 2021 14:48:58 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 463
+Connection: keep-alive
+X-Cache-Key: /data/2.5/weather?q=london%2cuk
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: GET, POST
+
+{
+    "coord": {
+        "lon": -0.1257,
+        "lat": 51.5085
+    },
+    "weather": [
+        {
+            "id": 800,
+            "main": "Clear",
+            "description": "clear sky",
+            "icon": "01d"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 277.35,
+        "feels_like": 273.18,
+        "temp_min": 276.4,
+        "temp_max": 278.01,
+        "pressure": 1005,
+        "humidity": 52
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 5.66,
+        "deg": 300
+    },
+    "clouds": {
+        "all": 0
+    },
+    "dt": 1638110611,
+    "sys": {
+        "type": 1,
+        "id": 1414,
+        "country": "GB",
+        "sunrise": 1638085192,
+        "sunset": 1638115052
+    },
+    "timezone": 0,
+    "id": 2643743,
+    "name": "London",
+    "cod": 200
+}
+Request method:	GET
+Request URI:	https://api.openweathermap.org/data/2.5/weather?appid=63c98945644c3b231f6f60d263e34006&q=London%2CGB
+Proxy:			<none>
+Request params:	<none>
+Query params:	appid=63c98945644c3b231f6f60d263e34006
+				q=London,GB
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://api.openweathermap.org/data/2.5/weather?appid=63c98945644c3b231f6f60d263e34006&appid=63c98945644c3b231f6f60d263e34006&lat=51.5074&lon=-0.1278
+Proxy:			<none>
+Request params:	<none>
+Query params:	appid=[63c98945644c3b231f6f60d263e34006, 63c98945644c3b231f6f60d263e34006]
+				lat=51.5074
+				lon=-0.1278
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Server: openresty
+Date: Sun, 28 Nov 2021 14:48:59 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 463
+Connection: keep-alive
+X-Cache-Key: /data/2.5/weather?lat=51.51&lon=-0.13
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: GET, POST
+
+{
+    "coord": {
+        "lon": -0.1278,
+        "lat": 51.5074
+    },
+    "weather": [
+        {
+            "id": 800,
+            "main": "Clear",
+            "description": "clear sky",
+            "icon": "01d"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 277.37,
+        "feels_like": 273.2,
+        "temp_min": 276.42,
+        "temp_max": 278.03,
+        "pressure": 1005,
+        "humidity": 52
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 5.66,
+        "deg": 300
+    },
+    "clouds": {
+        "all": 0
+    },
+    "dt": 1638110512,
+    "sys": {
+        "type": 1,
+        "id": 1414,
+        "country": "GB",
+        "sunrise": 1638085192,
+        "sunset": 1638115052
+    },
+    "timezone": 0,
+    "id": 2643743,
+    "name": "London",
+    "cod": 200
+}
+HTTP/1.1 200 OK
+Server: openresty
+Date: Sun, 28 Nov 2021 14:48:59 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 463
+Connection: keep-alive
+X-Cache-Key: /data/2.5/weather?q=london%2cgb
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: GET, POST
+
+{
+    "coord": {
+        "lon": -0.1257,
+        "lat": 51.5085
+    },
+    "weather": [
+        {
+            "id": 800,
+            "main": "Clear",
+            "description": "clear sky",
+            "icon": "01d"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 277.35,
+        "feels_like": 273.18,
+        "temp_min": 276.4,
+        "temp_max": 278.01,
+        "pressure": 1005,
+        "humidity": 52
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 5.66,
+        "deg": 300
+    },
+    "clouds": {
+        "all": 0
+    },
+    "dt": 1638110920,
+    "sys": {
+        "type": 1,
+        "id": 1414,
+        "country": "GB",
+        "sunrise": 1638085192,
+        "sunset": 1638115052
+    },
+    "timezone": 0,
+    "id": 2643743,
+    "name": "London",
+    "cod": 200
+}
+Request method:	GET
+Request URI:	https://api.openweathermap.org/data/2.5/weather?appid=63c98945644c3b231f6f60d263e34006&appid=63c98945644c3b231f6f60d263e34006&lat=51.4552&lon=-2.5967
+Proxy:			<none>
+Request params:	<none>
+Query params:	appid=[63c98945644c3b231f6f60d263e34006, 63c98945644c3b231f6f60d263e34006]
+				lat=51.4552
+				lon=-2.5967
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://api.openweathermap.org/data/2.5/weather?appid=63c98945644c3b231f6f60d263e34006&q=Bristol%2CGB
+Proxy:			<none>
+Request params:	<none>
+Query params:	appid=63c98945644c3b231f6f60d263e34006
+				q=Bristol,GB
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Server: openresty
+Date: Sun, 28 Nov 2021 14:49:00 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 483
+Connection: keep-alive
+X-Cache-Key: /data/2.5/weather?q=bristol%2cgb
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: GET, POST
+
+{
+    "coord": {
+        "lon": -2.5967,
+        "lat": 51.4552
+    },
+    "weather": [
+        {
+            "id": 500,
+            "main": "Rain",
+            "description": "light rain",
+            "icon": "10d"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 278.52,
+        "feels_like": 275.7,
+        "temp_min": 277.77,
+        "temp_max": 280.45,
+        "pressure": 1007,
+        "humidity": 75
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 3.6,
+        "deg": 260
+    },
+    "rain": {
+        "1h": 0.83
+    },
+    "clouds": {
+        "all": 22
+    },
+    "dt": 1638110940,
+    "sys": {
+        "type": 1,
+        "id": 1398,
+        "country": "GB",
+        "sunrise": 1638085771,
+        "sunset": 1638115658
+    },
+    "timezone": 0,
+    "id": 2654675,
+    "name": "Bristol",
+    "cod": 200
+}
+Request method:	GET
+Request URI:	https://api.openweathermap.org/data/2.5/weather?appid=invalidapikey&q=London%2Cuk
+Proxy:			<none>
+Request params:	<none>
+Query params:	appid=invalidapikey
+				q=London,uk
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Server: openresty
+Date: Sun, 28 Nov 2021 14:49:00 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 483
+Connection: keep-alive
+X-Cache-Key: /data/2.5/weather?lat=51.46&lon=-2.6
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: GET, POST
+
+{
+    "coord": {
+        "lon": -2.5967,
+        "lat": 51.4552
+    },
+    "weather": [
+        {
+            "id": 500,
+            "main": "Rain",
+            "description": "light rain",
+            "icon": "10d"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 278.52,
+        "feels_like": 275.7,
+        "temp_min": 277.77,
+        "temp_max": 280.45,
+        "pressure": 1007,
+        "humidity": 75
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 3.6,
+        "deg": 260
+    },
+    "rain": {
+        "1h": 0.83
+    },
+    "clouds": {
+        "all": 22
+    },
+    "dt": 1638110940,
+    "sys": {
+        "type": 1,
+        "id": 1398,
+        "country": "GB",
+        "sunrise": 1638085771,
+        "sunset": 1638115658
+    },
+    "timezone": 0,
+    "id": 2654675,
+    "name": "Bristol",
+    "cod": 200
+}
+Request method:	GET
+Request URI:	https://api.openweathermap.org/data/2.5/weather?appid=invalidapikey&appid=invalidapikey&lat=51.5085&lon=-0.1257
+Proxy:			<none>
+Request params:	<none>
+Query params:	appid=[invalidapikey, invalidapikey]
+				lat=51.5085
+				lon=-0.1257
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 401 Unauthorized
+Server: openresty
+Date: Sun, 28 Nov 2021 14:49:00 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 107
+Connection: keep-alive
+X-Cache-Key: /data/2.5/weather?q=london%2cuk
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: GET, POST
+
+{
+    "cod": 401,
+    "message": "Invalid API key. Please see http://openweathermap.org/faq#error401 for more info."
+}
+HTTP/1.1 401 Unauthorized
+Server: openresty
+Date: Sun, 28 Nov 2021 14:49:00 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 107
+Connection: keep-alive
+X-Cache-Key: /data/2.5/weather?lat=51.51&lon=-0.13
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: GET, POST
+
+{
+    "cod": 401,
+    "message": "Invalid API key. Please see http://openweathermap.org/faq#error401 for more info."
+}
